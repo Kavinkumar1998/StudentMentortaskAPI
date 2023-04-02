@@ -1,0 +1,17 @@
+1.api for creating mentor
+http://localhost:7000/api/mentor/createMentor
+
+2./api for creating student
+http://localhost:7000/api/student/createStudents
+
+3.Define route to assign Student to Mentor
+http://localhost:7000/api/student/addmentor
+
+4.Define route to get list of available Students for assignment
+http://localhost:7000/api/student/studentwithoutmentor
+
+5.api to Assign or Change Mentor for particular Student
+http://localhost:7000/api/student/editmentor/:studentId/:mentorId
+
+6.API to show all students for a particular mentor
+http://localhost:7000/api/student/mentor/:mentorId/students
